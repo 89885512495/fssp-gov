@@ -8,10 +8,12 @@ Adds information from http://opendata.fssprus.ru to MyQSL
 
 •	Adds debtors information to MySQL
 
-•	Sends smg to your mail
+•	Sends mgs to your mail
 
 # How To Use Scraper
-add your mail and passwrd to sendmsg.go
+Add your mail and passwrd to sendmsg.go
+
+Create Table in your MySQL DB
 
 run: go run main.go
 
