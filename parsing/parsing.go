@@ -28,7 +28,7 @@ func AddDB(filename string) {
 		}
 	}
 
-	db, err := sql.Open("mysql", "root:Dunaewlad88!@/fsspGov")
+	db, err := sql.Open("mysql", "user:password!@/dbname")
 	if err != nil {
 		sendmsg.SendMsg("Error when opening database.")
 		log.Fatalln(err)
