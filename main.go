@@ -3,14 +3,12 @@ package main
 
 import (
 	"fmt"
-	"time"
 
 	"github.com/dennis/download"
 	"github.com/dennis/parsing"
 )
 
 func main() {
-	start := time.Now()
 
 	// Get date from now
 	date := time.Now()
@@ -28,7 +26,4 @@ func main() {
 
 	// Read csv file and add info in DataBase
 	parsing.AddDB(documentName)
-
-	duration := time.Since(start)
-	fmt.Println(duration)
 }
